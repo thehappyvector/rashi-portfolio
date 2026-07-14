@@ -1,0 +1,59 @@
+<svg viewBox="0 0 1000 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow5" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="420" fill="#ffffff"/>
+
+  <text x="500" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">From Unowned Gap to Working Partnership: 3M and OLA</text>
+  <text x="500" y="56" text-anchor="middle" font-size="12" fill="#666">2017 to 2019, built from inside 3M, with no counterpart shaping it until the pitch itself</text>
+
+  <!-- Step 1 -->
+  <rect x="30" y="90" width="220" height="110" rx="8" fill="#eef4f7" stroke="#1F6F8B" stroke-width="1.5"/>
+  <text x="140" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#1F6F8B">STEP 1</text>
+  <text x="140" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">Build the Case</text>
+  <text x="140" y="160" text-anchor="middle" font-size="11" fill="#666">With 3M's VP of Car Care,</text>
+  <text x="140" y="176" text-anchor="middle" font-size="11" fill="#666">mapping rider and driver</text>
+  <text x="140" y="192" text-anchor="middle" font-size="11" fill="#666">pain points end to end</text>
+
+  <line x1="250" y1="145" x2="285" y2="145" stroke="#555" stroke-width="2.5" marker-end="url(#arrow5)"/>
+
+  <!-- Step 2 -->
+  <rect x="285" y="90" width="220" height="110" rx="8" fill="#eef4f7" stroke="#1F6F8B" stroke-width="1.5"/>
+  <text x="395" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#1F6F8B">STEP 2</text>
+  <text x="395" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">Pitch OLA's CEO</text>
+  <text x="395" y="160" text-anchor="middle" font-size="11" fill="#666">Positioned as a B2B</text>
+  <text x="395" y="176" text-anchor="middle" font-size="11" fill="#666">opportunity for both</text>
+  <text x="395" y="192" text-anchor="middle" font-size="11" fill="#666">companies, not a vendor ask</text>
+
+  <line x1="505" y1="145" x2="540" y2="145" stroke="#555" stroke-width="2.5" marker-end="url(#arrow5)"/>
+
+  <!-- Step 3 -->
+  <rect x="540" y="90" width="220" height="110" rx="8" fill="#fdf6ec" stroke="#C77D2E" stroke-width="1.5"/>
+  <text x="650" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a5a1a">STEP 3</text>
+  <text x="650" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">OLA Approves</text>
+  <text x="650" y="160" text-anchor="middle" font-size="11" fill="#666">Handoff to 3M and</text>
+  <text x="650" y="176" text-anchor="middle" font-size="11" fill="#666">OLA's own operating</text>
+  <text x="650" y="192" text-anchor="middle" font-size="11" fill="#666">teams for execution</text>
+
+  <line x1="760" y1="145" x2="795" y2="145" stroke="#555" stroke-width="2.5" marker-end="url(#arrow5)"/>
+
+  <!-- Step 4 -->
+  <rect x="795" y="90" width="175" height="110" rx="8" fill="#fdf6ec" stroke="#C77D2E" stroke-width="1.5"/>
+  <text x="882" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a5a1a">STEP 4</text>
+  <text x="882" y="140" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">Pilot to Scale</text>
+  <text x="882" y="160" text-anchor="middle" font-size="11" fill="#666">Bengaluru pilot,</text>
+  <text x="882" y="176" text-anchor="middle" font-size="11" fill="#666">scaled to</text>
+  <text x="882" y="192" text-anchor="middle" font-size="11" font-weight="bold" fill="#333">5 cities</text>
+
+  <!-- Outcome -->
+  <line x1="500" y1="200" x2="500" y2="235" stroke="#999" stroke-width="2" marker-end="url(#arrow5)"/>
+  <rect x="150" y="245" width="700" height="140" rx="10" fill="#f0f7f0" stroke="#5fa85f" stroke-width="1.5"/>
+  <text x="500" y="275" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f6b2f">LASTING OUTCOME</text>
+  <text x="500" y="302" text-anchor="middle" font-size="12" fill="#333">3M: a new commercial channel for Car Care materials inside a major ride-hailing platform</text>
+  <text x="500" y="324" text-anchor="middle" font-size="12" fill="#333">OLA: a differentiated, safety-forward rider experience it could market at scale</text>
+  <text x="500" y="352" text-anchor="middle" font-size="12" font-weight="bold" fill="#2f6b2f">Two companies with no prior relationship, now a working partnership that outlived the project</text>
+  <text x="500" y="372" text-anchor="middle" font-size="11" fill="#666" font-style="italic">Execution ran through 3M and OLA's own teams, not through me directly</text>
+</svg>

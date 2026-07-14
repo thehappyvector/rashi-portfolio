@@ -1,0 +1,45 @@
+<svg viewBox="0 0 950 460" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow7" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect width="950" height="460" fill="#ffffff"/>
+
+  <text x="475" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#1a1a1a">Renewsance: Two Founders, One Question, One Deliberate Ending</text>
+  <text x="475" y="56" text-anchor="middle" font-size="12" fill="#666">February to July 2025, self-funded, scoped tightly around a single testable hypothesis</text>
+
+  <!-- Co-founder lane -->
+  <rect x="40" y="90" width="400" height="110" rx="8" fill="#eef4f7" stroke="#1F6F8B" stroke-width="1.5"/>
+  <text x="240" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#1F6F8B">CO-FOUNDER (CTO)</text>
+  <text x="240" y="140" text-anchor="middle" font-size="12" fill="#333">Built the RAG system, trained on</text>
+  <text x="240" y="158" text-anchor="middle" font-size="12" fill="#333">state-level regulations, subsidies,</text>
+  <text x="240" y="176" text-anchor="middle" font-size="12" fill="#333">and incentive data</text>
+
+  <!-- Me lane -->
+  <rect x="510" y="90" width="400" height="110" rx="8" fill="#fdf6ec" stroke="#C77D2E" stroke-width="1.5"/>
+  <text x="710" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a5a1a">ME</text>
+  <text x="710" y="140" text-anchor="middle" font-size="12" fill="#333">Built the app interface, ran hypothesis</text>
+  <text x="710" y="158" text-anchor="middle" font-size="12" fill="#333">testing, wrote user guides, and ran</text>
+  <text x="710" y="176" text-anchor="middle" font-size="12" fill="#333">30+ discovery interviews</text>
+
+  <line x1="240" y1="200" x2="240" y2="230" stroke="#999" stroke-width="2"/>
+  <line x1="710" y1="200" x2="710" y2="230" stroke="#999" stroke-width="2"/>
+  <line x1="240" y1="230" x2="710" y2="230" stroke="#999" stroke-width="2"/>
+  <line x1="475" y1="230" x2="475" y2="255" stroke="#999" stroke-width="2" marker-end="url(#arrow7)"/>
+
+  <!-- Working product -->
+  <rect x="275" y="265" width="400" height="70" rx="8" fill="#f0f7f0" stroke="#5fa85f" stroke-width="1.5"/>
+  <text x="475" y="292" text-anchor="middle" font-size="13" font-weight="bold" fill="#2f6b2f">Working ROI Tool</text>
+  <text x="475" y="313" text-anchor="middle" font-size="11" fill="#333">Zip code + electricity bill in, personalized solar ROI out</text>
+
+  <line x1="475" y1="335" x2="475" y2="365" stroke="#999" stroke-width="2" marker-end="url(#arrow7)"/>
+
+  <!-- Policy shock -->
+  <rect x="255" y="375" width="440" height="70" rx="8" fill="#fdf0f0" stroke="#b34a3a" stroke-width="1.5"/>
+  <text x="475" y="402" text-anchor="middle" font-size="13" font-weight="bold" fill="#8c2f2f">Federal Administration Changes</text>
+  <text x="475" y="423" text-anchor="middle" font-size="11" fill="#8c2f2f">IRA solar incentives rolled back, invalidating the ROI math the product was built around</text>
+
+  <text x="475" y="452" text-anchor="middle" font-size="11" fill="#666" font-style="italic">We wound down deliberately rather than keep building against numbers that no longer held</text>
+</svg>
