@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<title>Modeling Solar ROI With AI, Rashi Jadhav</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Petrona:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --amber: #D68F1F; --plum: #3D2B56; --paper: #F8F5F7; --ink: #221A2E; --line: #8B7F94; }
+  * { box-sizing: border-box; }
+  body {
+    color-scheme: light; margin: 0; background: var(--paper); color: var(--ink); font-family: 'Public Sans', sans-serif; }
+  a { color: inherit; }
+  nav { display: flex; justify-content: space-between; align-items: center; max-width: 900px; margin: 0 auto; padding: 28px 24px 20px; }
+  nav .brand { font-family: 'Petrona', serif; font-style: italic; font-weight: 500; font-size: 17px; text-decoration: none; }
+  nav .links { display: flex; gap: 26px; font-size: 14px; }
+  nav .links a { text-decoration: none; opacity: 0.75; }
+  nav .links a:hover { opacity: 1; }
+
+  .wrap { max-width: 720px; margin: 0 auto; padding: 20px 24px 80px; }
+  .eyebrow { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--line); margin-bottom: 10px; }
+  h1.title { font-family: 'Petrona', serif; font-style: italic; font-weight: 500; font-size: 30px; margin: 0 0 40px; line-height: 1.3; }
+
+  h2 { font-family: 'Public Sans', sans-serif; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber); font-weight: 600; margin: 36px 0 14px; }
+  h2:first-of-type { margin-top: 0; }
+  p { font-size: 16.5px; line-height: 1.65; color: #4A4054; margin: 0 0 20px; }
+  .marked { background: linear-gradient(transparent 60%, rgba(214,143,31,0.22) 60%); padding: 0 2px; }
+
+  .inline-note { display: flex; gap: 10px; align-items: flex-start; background: #FCF8EF; border-left: 3px solid var(--plum); border-radius: 4px; padding: 10px 14px; margin: 0 0 26px; }
+  .inline-note .tag { font-size: 10px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--plum); font-weight: 600; white-space: nowrap; margin-top: 3px; }
+  .inline-note .note { font-family: 'Caveat', cursive; font-size: 18px; color: var(--plum); line-height: 1.25; }
+
+  .insight-block { background: #FCF3E4; border-radius: 10px; padding: 26px 28px; margin: 6px 0 36px; }
+  .insight-block .insight-tag { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber); font-weight: 600; margin-bottom: 10px; }
+  .insight-block p.insight-text { font-family: 'Petrona', serif; font-style: italic; font-weight: 500; font-size: 19px; line-height: 1.5; color: var(--ink); margin: 0; }
+
+  .diagram { margin: 8px 0 40px; border: 1px solid #E7DFEA; border-radius: 10px; padding: 20px; background: #fff; }
+  .diagram img { width: 100%; display: block; }
+
+  .crosslink { font-size: 14px; padding-top: 32px; border-top: 1px solid #EFE7ED; margin-top: 8px; }
+  .crosslink a { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="brand">Rashi Jadhav</a>
+  <div class="links">
+    <a href="../index.html">Work</a>
+    <a href="../about.html">About</a>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="eyebrow">RENEWSANCE · FEBRUARY–JULY 2025</div>
+  <h1 class="title">Modeling Solar ROI With AI, Until the Incentive Structure Disappeared</h1>
+
+  <h2>Problem</h2>
+  <p>Figuring out whether solar actually makes financial sense is genuinely hard for most homeowners. It depends on state specific regulations, utility rates, subsidies, and the physical details of the house, information that's scattered and inconsistent, usually pieced together with help from a salesperson who has every incentive to say yes.</p>
+
+  <h2>Constraint</h2>
+  <p>This was self-funded, just the two of us. There was no budget to build something broad on a hunch, so we had to scope tightly around one real question, could accurate, personalized ROI modeling actually be delivered automatically, before either of us invested any further.</p>
+
+  <h2>Approach</h2>
+  <p>My co-founder, our CTO, built the RAG system itself, trained on state level data on regulations, subsidies, and incentive programs, so someone could enter their zip code and electricity bill and get back a real ROI estimate. I built the app's interface, designed and ran the hypothesis testing that shaped what we actually needed to prove, and wrote the user guides that let early testers use it. I also ran over 30 discovery interviews with homeowners, installers, and utility experts, to check whether this was even the right problem to solve before we went further.</p>
+
+  <div class="diagram">
+    <img src="../assets/renewsance_flow.svg" alt="Diagram showing the co-founder split between the RAG system build and the interface/validation work, converging into a working ROI tool, then the federal policy change that led to a deliberate wind-down.">
+  </div>
+
+  <div class="insight-block">
+    <div class="insight-tag">The Insight</div>
+    <p class="insight-text">The tool worked exactly as designed, and the business still died, because the constraint had quietly moved from the product to federal policy, and no amount of good engineering could follow it there.</p>
+  </div>
+
+  <h2>Outcome</h2>
+  <p>The system worked exactly as designed, producing real, personalized ROI estimates from actual state level data. Before we could scale past that validation stage, the federal administration changed, and the Inflation Reduction Act's solar incentives got rolled back and limited, changing the ROI math the entire product depended on. We made the call to wind the venture down while the numbers still reflected reality.</p>
+
+  <div class="crosslink">
+    Back to: <a href="momneeds.html">MomNeeds</a> &middot; <a href="luminus.html">Luminus Life+</a> &middot; <a href="../index.html">All the work</a>
+  </div>
+</div>
+
+</body>
+</html>
