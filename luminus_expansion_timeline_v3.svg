@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1000 480" xmlns="http://www.w3.org/2000/svg" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow8" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#666"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="480" fill="#ffffff"/>
+
+  <text x="500" y="35" text-anchor="middle" font-size="20" font-weight="bold" fill="#221A2E">Sequencing MENA Expansion: Hub &amp; Spoke Model</text>
+  <text x="500" y="56" text-anchor="middle" font-size="12" fill="#666">Prioritized by GDP per capita, internet penetration, donor landscape, and regulatory environment</text>
+
+  <circle cx="500" cy="125" r="55" fill="#fdf6ec" stroke="#D68F1F" stroke-width="2"/>
+  <text x="500" y="118" text-anchor="middle" font-size="12" font-weight="bold" fill="#8a5a1a">MAIN HUB</text>
+  <text x="500" y="138" text-anchor="middle" font-size="15" font-weight="bold" fill="#333">Dubai</text>
+
+  <line x1="500" y1="180" x2="500" y2="215" stroke="#999" stroke-width="2" marker-end="url(#arrow8)"/>
+
+  <rect x="290" y="223" width="420" height="80" rx="8" fill="#fdf6ec" stroke="#D68F1F" stroke-width="1.5"/>
+  <text x="500" y="252" text-anchor="middle" font-size="15" font-weight="bold" fill="#8a5a1a">2023: Pilot, 2 Countries</text>
+  <text x="500" y="275" text-anchor="middle" font-size="11" fill="#666">Piloting the end-to-end process with existing technologies</text>
+  <text x="500" y="292" text-anchor="middle" font-size="11" fill="#666">before committing to a wider rollout</text>
+
+  <line x1="500" y1="303" x2="500" y2="338" stroke="#999" stroke-width="2" marker-end="url(#arrow8)"/>
+
+  <rect x="260" y="346" width="480" height="80" rx="8" fill="#f5ece0" stroke="#3D2B56" stroke-width="1.5"/>
+  <text x="500" y="375" text-anchor="middle" font-size="15" font-weight="bold" fill="#3D2B56">2024: Expansion, 4 Countries</text>
+  <text x="500" y="398" text-anchor="middle" font-size="11" fill="#666">2 pilot countries plus 2 more, partnerships scale up</text>
+  <text x="500" y="415" text-anchor="middle" font-size="11" fill="#666">alongside personalized, incentivized learning pathways</text>
+
+  <line x1="500" y1="426" x2="500" y2="440" stroke="#999" stroke-width="2" marker-end="url(#arrow8)"/>
+
+  <rect x="250" y="440" width="500" height="30" rx="15" fill="#f0f7f0" stroke="#5fa85f" stroke-width="1.5"/>
+  <text x="500" y="460" text-anchor="middle" font-size="14" font-weight="bold" fill="#2f6b2f">2030: 8 Countries Across MENA</text>
+</svg>

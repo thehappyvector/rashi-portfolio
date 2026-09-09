@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coordinating Care by Hand, Rashi Jadhav</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Petrona:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --amber: #D68F1F; --plum: #3D2B56; --paper: #F8F5F7; --ink: #221A2E; --line: #8B7F94; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: 'Public Sans', sans-serif; }
+  a { color: inherit; }
+  nav { display: flex; justify-content: space-between; align-items: center; max-width: 900px; margin: 0 auto; padding: 28px 24px 20px; }
+  nav .brand { font-family: 'Petrona', serif; font-style: italic; font-weight: 500; font-size: 17px; text-decoration: none; }
+  nav .links { display: flex; gap: 26px; font-size: 14px; }
+  nav .links a { text-decoration: none; opacity: 0.75; }
+  nav .links a:hover { opacity: 1; }
+
+  .wrap { max-width: 720px; margin: 0 auto; padding: 20px 24px 80px; }
+  .eyebrow { font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--line); margin-bottom: 10px; }
+  h1.title { font-family: 'Petrona', serif; font-style: italic; font-weight: 500; font-size: 30px; margin: 0 0 40px; line-height: 1.3; }
+
+  h2 { font-family: 'Public Sans', sans-serif; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber); font-weight: 600; margin: 36px 0 14px; }
+  h2:first-of-type { margin-top: 0; }
+  p { font-size: 16.5px; line-height: 1.65; color: #4A4054; margin: 0 0 20px; }
+  .marked { background: linear-gradient(transparent 60%, rgba(214,143,31,0.22) 60%); padding: 0 2px; }
+
+  .inline-note { display: flex; gap: 10px; align-items: flex-start; background: #FCF8EF; border-left: 3px solid var(--plum); border-radius: 4px; padding: 10px 14px; margin: 0 0 26px; }
+  .inline-note .tag { font-size: 10px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--plum); font-weight: 600; white-space: nowrap; margin-top: 3px; }
+  .inline-note .note { font-family: 'Caveat', cursive; font-size: 18px; color: var(--plum); line-height: 1.25; }
+
+  .insight-block { background: #FCF3E4; border-radius: 10px; padding: 26px 28px; margin: 6px 0 36px; }
+  .insight-block .insight-tag { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber); font-weight: 600; margin-bottom: 10px; }
+  .insight-block p.insight-text { font-family: 'Petrona', serif; font-style: italic; font-weight: 500; font-size: 19px; line-height: 1.5; color: var(--ink); margin: 0; }
+
+  .diagram { margin: 8px 0 40px; border: 1px solid #E7DFEA; border-radius: 10px; padding: 20px; background: #fff; }
+  .diagram img { width: 100%; display: block; }
+
+  .crosslink { font-size: 14px; padding-top: 32px; border-top: 1px solid #EFE7ED; margin-top: 8px; }
+  .crosslink a { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="../index.html" class="brand">Rashi Jadhav</a>
+  <div class="links">
+    <a href="../index.html">Work</a>
+    <a href="../about.html">About</a>
+  </div>
+</nav>
+
+<div class="wrap">
+  <div class="eyebrow">MOMNEEDS · JULY 2019–MARCH 2021</div>
+  <h1 class="title">Coordinating Prenatal and Postnatal Care by Hand</h1>
+
+  <h2>Problem</h2>
+  <p>Prenatal and postnatal care in India is scattered across specialists, OB-GYNs, nutritionists, fitness instructors, who almost never talk to each other, leaving mothers to piece their own care together. There was no infrastructure to test whether a coordinated model could actually work, and no budget to build one. Whatever I tested had to run on tools that already existed.</p>
+
+  <h2>Constraint</h2>
+  <p>This was self-funded, built alongside a full time graduate program, with no engineering team and no money for custom software. The whole thing had to run through a channel mothers and providers already used every day, so I could start testing immediately.</p>
+
+  <div class="insight-block">
+    <div class="insight-tag">The Insight</div>
+    <p class="insight-text">The manual coordination wasn't a placeholder for an app. It was the actual product, and proving it by hand was the only way to know if building software around it was even worth doing.</p>
+  </div>
+
+  <h2>Approach</h2>
+  <p>I onboarded a small group of providers, 4 OB-GYNs, 2 nutritionists, and 2 prenatal fitness instructors, and put together a subscription model bundling virtual consultations, nutrition guidance, and fitness support. I ran the entire booking and scheduling process myself, by hand, through WhatsApp, coordinating appointments and follow ups directly with 23 mothers. There was no app, no backend, no team.</p>
+
+  <div class="diagram">
+    <img src="../assets/momneeds_flow.svg" alt="Diagram showing the manual WhatsApp coordination loop between a mother, me, and a provider, scaling to 23 mothers and 8 providers with no app or team involved.">
+  </div>
+
+  <h2>Outcome</h2>
+  <p>23 mothers got coordinated prenatal and postnatal care through a panel of 8 providers, run entirely through manual chat. It paused in March 2021, a deliberate stop: keeping it going meant more time and money than I had once student loans and a second master's degree needed my full attention.</p>
+
+  <div class="crosslink">
+    Next: <a href="renewsance.html">Renewsance</a> &middot; <a href="luminus.html">Luminus Life+, the same instinct with far more resources</a>
+  </div>
+</div>
+
+</body>
+</html>
