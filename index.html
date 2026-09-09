@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
 <title>Rashi Jadhav</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -16,6 +17,7 @@
   }
   * { box-sizing: border-box; }
   body {
+    color-scheme: light;
     margin: 0;
     background: var(--paper);
     color: var(--ink);
@@ -91,10 +93,15 @@
     max-width: 560px;
     margin: 0 0 32px;
   }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
+  .scroll-hint { display: none; font-size: 12px; color: var(--line); margin-bottom: 10px; }
+  @media (max-width: 700px) {
+    .scroll-hint { display: block; }
+  }
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -24px; padding: 0 24px; }
+  table { width: 100%; min-width: 640px; border-collapse: collapse; font-size: 13px; table-layout: fixed; }
   th, td { padding: 9px 4px; text-align: center; border-bottom: 1px solid #EFE7ED; }
-  th:first-child, td:first-child { width: 220px; }
-  th:not(:first-child), td:not(:first-child) { width: calc((100% - 220px) / 6); }
+  th:first-child, td:first-child { width: 200px; }
+  th:not(:first-child), td:not(:first-child) { width: calc((100% - 200px) / 6); }
   td.skill-name { text-align: left; padding-left: 0; font-weight: 600; font-size: 12.5px; }
   th { font-size: 11px; color: var(--line); font-weight: 600; }
   .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--amber); display: inline-block; }
@@ -146,6 +153,8 @@
     <h2 class="section-title">Skills in practice</h2>
     <p class="section-sub">I have had a non-linear career. This matrix shows what I actually did, company by company, not a title that tries to sum it up.</p>
 
+    <p class="scroll-hint">Scroll sideways to see all companies →</p>
+    <div class="table-scroll">
     <table>
       <tr>
         <th></th>
@@ -194,6 +203,7 @@
         <td><span class="dot"></span></td><td><span class="dot"></span></td><td></td>
       </tr>
     </table>
+    </div>
   </section>
 </div>
 
